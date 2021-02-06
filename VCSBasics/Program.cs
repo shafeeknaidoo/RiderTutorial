@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq.Expressions;
 
 namespace VCSBasics
 {
@@ -6,7 +7,13 @@ namespace VCSBasics
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Console.WriteLine("Hello World!");
+            }
+            catch (Exception exception)
+            {
+            }
         }
     }
 }
